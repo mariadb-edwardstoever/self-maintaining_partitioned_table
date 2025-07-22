@@ -1,6 +1,6 @@
 # Self-maintaining Partitioned Table 
 
-A procedure called by a scheduled event that reorganizes the partition automatically every hour. As an alternative to using an event object, it is just as easy to use crontab.
+A procedure called by a scheduled event that drops old partitions and creates new partitions automatically every hour. As an alternative to using an event object, it is just as easy to use crontab.
 
 Included files are to be run in the following order:
 ```
